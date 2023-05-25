@@ -1,4 +1,5 @@
-import Tap from "./components/tap";
+import Bold from "./components/wiki/bold";
+import Tap from "./components/wiki/tap";
 
 export default function Home() {
   {/*bg-gradient-to-b from-teal-300 */}
@@ -24,6 +25,9 @@ export default function Home() {
               I have been working as a software engineer for 2 years. 
               I like conversations about software engineering and programming. 
             </p>
+            <p className="font-bold mt-2">
+              Currently Working: Woowa Brothers
+            </p>
             <div className="mt-3 w-full">
               <button className="bg-black text-white rounded-full mt-2.5 w-full h-10">Github</button>
               <button className="bg-rose-600 text-white rounded-full mt-2.5 w-full h-10">Email</button>
@@ -34,26 +38,11 @@ export default function Home() {
           </div>
         </div>
         <div className="ml-10">
-            <p>
-                Sure, here is a 500-word technical article written in English that sounds like it was written by Martin Fowler: {/*add hover feature like wikipedia*/}<Tap link="http://www.naver.com" description="[1]"/>
-                The Future of Software Development
-                The field of software development is constantly evolving, and it can be difficult to keep up with the latest trends. However, there are a few key trends that are likely to shape the future of software development.
-                One of the most important trends is the rise of artificial intelligence (AI). AI is already being used in a variety of ways in software development, from automating tasks to generating code. As AI continues to develop, it is likely to play an even more significant role in software development.
-                Another important trend is the move to cloud computing. Cloud computing is becoming increasingly popular, as it offers a number of advantages over traditional on-premises infrastructure. Cloud computing can help businesses to save money, improve scalability, and get access to the latest technologies.
-                The rise of mobile devices is also having a major impact on software development. Mobile devices are now the primary way that people interact with the internet, and businesses need to ensure that their websites and applications are optimized for mobile devices.
-                Finally, the growing importance of security is another key trend in software development. As software becomes more complex, it is becoming more vulnerable to attacks. Businesses need to make sure that they are taking steps to protect their software from security threats.
-                These are just a few of the key trends that are likely to shape the future of software development. The field of software development is constantly changing, and it is important to stay up-to-date on the latest trends in order to be successful.
-                In addition to the trends mentioned above, there are a number of other factors that are likely to shape the future of software development. These include the increasing popularity of open source software, the rise of agile development, and the growing importance of user experience.
-                The field of software development is constantly evolving, and it can be difficult to predict the future. However, the trends mentioned above provide a glimpse into what the future may hold.
-                The field of software development is constantly evolving, and it can be difficult to keep up with the latest trends. However, there are a few key trends that are likely to shape the future of software development.
-                One of the most important trends is the rise of artificial intelligence (AI). AI is already being used in a variety of ways in software development, from automating tasks to generating code. As AI continues to develop, it is likely to play an even more significant role in software development.
-                Another important trend is the move to cloud computing. Cloud computing is becoming increasingly popular, as it offers a number of advantages over traditional on-premises infrastructure. Cloud computing can help businesses to save money, improve scalability, and get access to the latest technologies.
-                The rise of mobile devices is also having a major impact on software development. Mobile devices are now the primary way that people interact with the internet, and businesses need to ensure that their websites and applications are optimized for mobile devices.
-                Finally, the growing importance of security is another key trend in software development. As software becomes more complex, it is becoming more vulnerable to attacks. Businesses need to make sure that they are taking steps to protect their software from security threats.
-                These are just a few of the key trends that are likely to shape the future of software development. The field of software development is constantly changing, and it is important to stay up-to-date on the latest trends in order to be successful.
-                In addition to the trends mentioned above, there are a number of other factors that are likely to shape the future of software development. These include the increasing popularity of open source software, the rise of agile development, and the growing importance of user experience.
-                The field of software development is constantly evolving, and it can be difficult to predict the future. However, the trends mentioned above provide a glimpse into what the future may hold.
-              </p>
+            <p className="text-lg">
+              As a working software engineer, I have been trying to learn a lot of something such as <Bold text="Agile, TDD, CleanCode, Refactoring, Architecture, etc"/>. I have been working as software engineer for 2 years. 
+              I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
+              I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies<Tap link="" description="[1]"/> with other developers and teammate.
+            </p>
           </div>
       </div>
     </div>

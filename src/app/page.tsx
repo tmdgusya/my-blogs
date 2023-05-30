@@ -1,3 +1,4 @@
+import HoverModal from "./components/wiki/HoverModal";
 import Bold from "./components/wiki/bold";
 import Tap from "./components/wiki/tap";
 
@@ -24,9 +25,7 @@ export default function Home() {
             <p className="mt-3">
               I have been working as a software engineer for 2 years. 
               I like conversations about software engineering and programming. 
-            </p>
-            <p className="font-bold mt-2">
-              Currently Working: Woowa Brothers
+              If you want to talk we me, you can <Bold text="contact me"/> through the links below.
             </p>
             <div className="mt-3 w-full">
               <button className="bg-black text-white rounded-full mt-2.5 w-full h-10">Github</button>
@@ -41,7 +40,7 @@ export default function Home() {
             <p className="text-lg">
               As a working software engineer, I have been trying to learn a lot of something such as <Bold text="Agile, TDD, CleanCode, Refactoring, Architecture, etc"/>. I have been working as software engineer for 2 years. 
               I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
-              I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies<Tap link="" description="[1]"/> with other developers and teammate.
+              I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies<HoverModal tag="[1]" content="Writing this content."/> with other developers and teammate.
             </p>
           </div>
       </div>

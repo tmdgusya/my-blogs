@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-modal {
+    position: relative;
+    cursor: pointer;
+}
+
+.reference-modal {
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+width: 240px;
+padding: 12px;
+background-color: white;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s, visibility 0.3s;
+z-index: 1;
+}
+
+.hover-modal:hover .reference-modal {
+opacity: 1;
+visibility: visible;
+}
+
+.reference-modal-content {
+font-size: 14px;
+line-height: 1.4;
+}

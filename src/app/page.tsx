@@ -1,6 +1,6 @@
 import HoverModal from "./components/wiki/HoverModal";
 import Bold from "./components/wiki/Bold";
-import Tap from "./components/wiki/tap";
+import SecondHeader from "./components/wiki/SecondHeader"
 
 export default function Home() {
   {/*bg-gradient-to-b from-teal-300 */}
@@ -40,7 +40,11 @@ export default function Home() {
           <p className="text-lg">
             As a working software engineer, I have been trying to learn a lot of something such as <Bold text="Agile, TDD, CleanCode, Refactoring, Architecture, etc"/>. I have been working as software engineer for 2 years. 
             I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
-            I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies<HoverModal tag="[1]" content="Writing this content."/> with other developers and teammate.
+            I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies with other developers and teammate.
+          </p>
+          <SecondHeader title="Interesting.." />
+          <p className="text-lg mt-3">
+            Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products.
           </p>
         </div>
       </div>

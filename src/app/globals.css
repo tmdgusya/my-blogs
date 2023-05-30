@@ -11,7 +11,7 @@
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateY(-150%) translateX(-50%);
     width: 240px;
     padding: 12px;
     background-color: white;

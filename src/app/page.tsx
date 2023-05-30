@@ -1,5 +1,5 @@
 import HoverModal from "./components/wiki/HoverModal";
-import Bold from "./components/wiki/bold";
+import Bold from "./components/wiki/Bold";
 import Tap from "./components/wiki/tap";
 
 export default function Home() {
@@ -37,12 +37,12 @@ export default function Home() {
           </div>
         </div>
         <div className="ml-10">
-            <p className="text-lg">
-              As a working software engineer, I have been trying to learn a lot of something such as <Bold text="Agile, TDD, CleanCode, Refactoring, Architecture, etc"/>. I have been working as software engineer for 2 years. 
-              I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
-              I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies<HoverModal tag="[1]" content="Writing this content."/> with other developers and teammate.
-            </p>
-          </div>
+          <p className="text-lg">
+            As a working software engineer, I have been trying to learn a lot of something such as <Bold text="Agile, TDD, CleanCode, Refactoring, Architecture, etc"/>. I have been working as software engineer for 2 years. 
+            I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
+            I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies<HoverModal tag="[1]" content="Writing this content."/> with other developers and teammate.
+          </p>
+        </div>
       </div>
     </div>
   </div>

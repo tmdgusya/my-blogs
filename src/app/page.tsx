@@ -1,6 +1,7 @@
 import HoverModal from "./components/wiki/HoverModal";
 import Bold from "./components/wiki/Bold";
 import SecondHeader from "./components/wiki/SecondHeader"
+import Link from "next/link";
 
 export default function Home() {
   {/*bg-gradient-to-b from-teal-300 */}
@@ -10,7 +11,7 @@ export default function Home() {
         <h1 className="w-30 h-20 text-7xl">Roach</h1>
         <a className="w-30 ml-40 text-xl pt-8">Intro</a>
         <a className="w-30 ml-20 text-xl pt-8">Posts</a>
-        <a className="w-30 ml-20 text-xl pt-8">Series</a>
+        <Link href="/series" className="w-30 ml-20 text-xl pt-8">Series</Link>
       </div>
       <div className="flex flex-nowrap bg-red-500 h-0.5 w-full"></div>
       <div className="flex flex-nowrap bg-red-500 mt-1 h-0.5 w-full"></div>
@@ -44,7 +45,8 @@ export default function Home() {
           </p>
           <SecondHeader title="Interesting.." />
           <p className="text-lg mt-3">
-            Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products.
+            Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products. 
+            So, I've applied LLM's to my english lecture. That's called <Bold text="Hellen"/>. If you want to know more about Hellen, you can click the link below.
           </p>
         </div>
       </div>

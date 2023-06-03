@@ -1,16 +1,22 @@
 import HoverModal from "./components/wiki/HoverModal";
 import Bold from "./components/wiki/Bold";
 import SecondHeader from "./components/wiki/SecondHeader"
-import RootLayout from "./layout";
 import Contact from "./components/intro/Contact";
 import helenImage from "../../assets/main/helen.png"
 import RepoThumbnail from "./components/github/RepoThumbnail";
 import kotlinBoilerplateImage from "../../assets/main/kotlin-test-boiler.svg"
+import Image from "next/image";
 
 export default function Home() {
   return <>
       <div className="flex flex-nowrap flex-col">
-        <img className="rounded-full border-2 border-black max-w-xs max-h-xs" src="https://avatars.githubusercontent.com/u/57784077?v=4"/>
+        <Image 
+          className="rounded-full border-2 border-black max-w-xs max-h-xs" 
+          src="https://avatars.githubusercontent.com/u/57784077?v=4"
+          width={300}
+          height={300}
+          alt="image"
+        />
         <div className="flex flex-wrap flex-col items-center max-w-xs">
           <p className="font-bold mt-2">
             Software Engineer

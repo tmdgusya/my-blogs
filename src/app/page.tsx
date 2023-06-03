@@ -3,11 +3,9 @@ import Bold from "./components/wiki/Bold";
 import SecondHeader from "./components/wiki/SecondHeader"
 import RootLayout from "./layout";
 import Contact from "./components/intro/Contact";
-import Image from "next/image";
 import helenImage from "../../assets/main/helen.png"
-import Link from "next/link";
-import GithubIcon from "./components/icon/Github";
 import RepoThumbnail from "./components/github/RepoThumbnail";
+import kotlinBoilerplateImage from "../../assets/main/kotlin-test-boiler.svg"
 
 export default function Home() {
   return <RootLayout>
@@ -50,8 +48,19 @@ export default function Home() {
         />
         <SecondHeader title="Kotlin" />
         <p className="text-lg mt-3">
-          I also love kotlin language.
+          I also love kotlin language. I have been using kotlin for making a product in my company.
+          I think kotlin is a good language for making a product because it's easy to use and has a lot of features, especially has nullability. 
+          That's a impotant feature for making a product.
         </p>
+        <p className="text-lg mt-3">
+          And, I've contributed or made some libraries for kotlin. If you want to know more about my libraries, you can click the link below.
+        </p>
+        <RepoThumbnail
+          title="Kotlin Test Boilerplate"
+          description="Kotlin Test Boilerplate is a library that can help you write test code easily. It provides some features that can help you write test code easily."
+          href="https://github.com/tmdgusya/kotlin-test-boilerplate"
+          image={kotlinBoilerplateImage}
+        />
       </div>
     </RootLayout>
 }

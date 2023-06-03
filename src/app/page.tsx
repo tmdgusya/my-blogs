@@ -8,7 +8,7 @@ import RepoThumbnail from "./components/github/RepoThumbnail";
 import kotlinBoilerplateImage from "../../assets/main/kotlin-test-boiler.svg"
 
 export default function Home() {
-  return <RootLayout>
+  return <>
       <div className="flex flex-nowrap flex-col">
         <img className="rounded-full border-2 border-black max-w-xs max-h-xs" src="https://avatars.githubusercontent.com/u/57784077?v=4"/>
         <div className="flex flex-wrap flex-col items-center max-w-xs">
@@ -62,5 +62,5 @@ export default function Home() {
           image={kotlinBoilerplateImage}
         />
       </div>
-    </RootLayout>
+    </>
 }

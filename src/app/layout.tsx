@@ -15,7 +15,6 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
       <body className={inter.className}>
         <div className="flex flex-col font-lora antialiased font-serif items-center">
           <div className="flex flex-col h-full">
@@ -31,6 +30,5 @@ export default function RootLayout({
           </div>
         </div>
       </body>
-    </html>
   )
 }

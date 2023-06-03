@@ -27,7 +27,7 @@ export default function RepoThumbnail({image, href, title, description}: RepoThu
         <p className="text-lg mt-2">{description}</p>
         <div className="flex flex-row mt-8">
           <GithubIcon/>
-          <p className="ml-2">{href}</p>
+          <p className="ml-2 text-sm">{href}</p>
         </div>
       </div>
     </Link>

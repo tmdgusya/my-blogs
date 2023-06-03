@@ -33,12 +33,12 @@ export default function Home() {
         <p className="text-lg">
           As a working software engineer, I have been trying to learn a lot of something such as <Bold text="Agile, TDD, CleanCode, Refactoring, Architecture, etc"/>. I have been working as software engineer for 2 years. 
           I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
-          I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies with other developers and teammate.
+          I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it`s the best way to align policies with other developers and teammate.
         </p>
         <SecondHeader title="LLM" />
         <p className="text-lg mt-3">
           Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products. 
-          So, I've applied LLM's to my english lecture. That's called <Bold text="Hellen"/>. If you want to know more about Hellen, you can click the link below.
+          So, I`ve applied LLM`s to my english lecture. That`s called <Bold text="Hellen"/>. If you want to know more about Hellen, you can click the link below.
         </p>
         <RepoThumbnail
           title="Hellen"
@@ -49,11 +49,11 @@ export default function Home() {
         <SecondHeader title="Kotlin" />
         <p className="text-lg mt-3">
           I also love <Bold text="kotlin"/> language. I have been using kotlin for making a product in my company for 2 years.
-          I think kotlin is a good language for making a product because it's easy to use and has a lot of features, especially has nullability. 
-          That's a impotant feature for making a product.
+          I think kotlin is a good language for making a product because it`s easy to use and has a lot of features, especially has nullability. 
+          That`s a impotant feature for making a product.
         </p>
         <p className="text-lg mt-3">
-          And, I've contributed or made some libraries for kotlin. If you want to know more about my libraries, you can click the link below.
+          And, I`ve contributed or made some libraries for kotlin. If you want to know more about my libraries, you can click the link below.
         </p>
         <RepoThumbnail
           title="Kotlin Test Boilerplate"

@@ -48,7 +48,7 @@ export default function Home() {
         />
         <SecondHeader title="Kotlin" />
         <p className="text-lg mt-3">
-          I also love kotlin language. I have been using kotlin for making a product in my company.
+          I also love <Bold text="kotlin"/> language. I have been using kotlin for making a product in my company for 2 years.
           I think kotlin is a good language for making a product because it's easy to use and has a lot of features, especially has nullability. 
           That's a impotant feature for making a product.
         </p>

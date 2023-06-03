@@ -2,6 +2,12 @@ import HoverModal from "./components/wiki/HoverModal";
 import Bold from "./components/wiki/Bold";
 import SecondHeader from "./components/wiki/SecondHeader"
 import RootLayout from "./layout";
+import Contact from "./components/intro/Contact";
+import Image from "next/image";
+import helenImage from "../../assets/main/helen.png"
+import Link from "next/link";
+import GithubIcon from "./components/icon/Github";
+import RepoThumbnail from "./components/github/RepoThumbnail";
 
 export default function Home() {
   return <RootLayout>
@@ -17,11 +23,11 @@ export default function Home() {
             If you want to talk we me, you can <Bold text="contact me"/> through the links below.
           </p>
           <div className="mt-3 w-full">
-            <button className="bg-black text-white rounded-full mt-2.5 w-full h-10">Github</button>
-            <button className="bg-rose-600 text-white rounded-full mt-2.5 w-full h-10">Email</button>
-            <button className="bg-sky-900 text-white rounded-full mt-2.5 w-full h-10">Linked-In</button>
-            <button className="bg-sky-600 text-white rounded-full mt-2.5 w-full h-10">FaceBook</button>
-            <button className="bg-cyan-500 text-white rounded-full mt-2.5 w-full h-10">Twitter</button>
+            <Contact color="bg-black" href="https://github.com/tmdgusya" site="Github"/>
+            <Contact color="bg-rose-600" href="mailto:dev0jsh@gmail.com" site="Email"/>
+            <Contact color="bg-sky-900" href="https://www.linkedin.com/in/%EC%8A%B9%ED%98%84-%EC%A0%95-376842221/?locale=en_US" site="Linked-In"/>
+            <Contact color="bg-sky-600" href="https://www.facebook.com/profile.php?id=100004833574793" site="Facebook"/>
+            <Contact color="bg-cyan-500" href="https://twitter.com/dev_roach" site="Twitter"/>
           </div>
         </div>
       </div>
@@ -35,6 +41,15 @@ export default function Home() {
           <p className="text-lg mt-3">
             Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products. 
             So, I've applied LLM's to my english lecture. That's called <Bold text="Hellen"/>. If you want to know more about Hellen, you can click the link below.
+          </p>
+          <RepoThumbnail
+            title="Hellen"
+            description="Helen is a good english teacher and can help you improve your speaking habits. Helen provide some features that can help during your speaking time."
+            href="https://github.com/tmdgusya/helen/tree/main"
+            image={helenImage}
+          />
+          <p className="text-lg mt-3">
+            I also love kotlin language.
           </p>
       </div>
     </RootLayout>

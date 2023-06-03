@@ -37,20 +37,21 @@ export default function Home() {
           I think writing code for production is like creating rules that explain how the product works. Therefore, we need to understand the rules and make them clear. Lately,
           I have been trying to write code using <Bold text="TDD(Test Development Driven)"/> because I believe it's the best way to align policies with other developers and teammate.
         </p>
-        <SecondHeader title="Interesting.." />
-          <p className="text-lg mt-3">
-            Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products. 
-            So, I've applied LLM's to my english lecture. That's called <Bold text="Hellen"/>. If you want to know more about Hellen, you can click the link below.
-          </p>
-          <RepoThumbnail
-            title="Hellen"
-            description="Helen is a good english teacher and can help you improve your speaking habits. Helen provide some features that can help during your speaking time."
-            href="https://github.com/tmdgusya/helen/tree/main"
-            image={helenImage}
-          />
-          <p className="text-lg mt-3">
-            I also love kotlin language.
-          </p>
+        <SecondHeader title="LLM" />
+        <p className="text-lg mt-3">
+          Theseday, I have been finding the way to use LLMs<HoverModal tag="[1]" content="Large Language Model"/> for my products. 
+          So, I've applied LLM's to my english lecture. That's called <Bold text="Hellen"/>. If you want to know more about Hellen, you can click the link below.
+        </p>
+        <RepoThumbnail
+          title="Hellen"
+          description="Helen is a good english teacher and can help you improve your speaking habits. Helen provide some features that can help during your speaking time."
+          href="https://github.com/tmdgusya/helen/tree/main"
+          image={helenImage}
+        />
+        <SecondHeader title="Kotlin" />
+        <p className="text-lg mt-3">
+          I also love kotlin language.
+        </p>
       </div>
     </RootLayout>
 }
